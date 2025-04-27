@@ -1,1 +1,1 @@
-# com.cloneInstagram
+# Instagram

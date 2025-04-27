@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Playwrite+AU+VIC+Guides&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+body{
+    margin: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.post{
+    width: 360px;
+    border: 1px solid lightgray;
+    padding:10px;
+    border-radius: 10px;
+    
+}
+.header{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 0px;
+    
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid goldenrod ;
+}
+.follow{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+}
+.follow-btn{
+    border: 1px solid lightgray;
+    background-color: #eee;
+    padding: 5px 12px;
+    border-radius: 8px;
+}
+.profile-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.profile-id{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.body-img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.icons{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons-list{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.desc{
+    font-size: 17px;
+}
+.reel{
+    width: 320px;
+    
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.reel-img{
+    width: 100%;
+    border-radius: 10px;
+    height: 500px;
+    object-fit: cover;
+}
+.reel-header{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    align-items: center;
+}
+.name{
+    color: white;
+}
+.reel-icons-list{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    gap: 20px;
+}
+.herosection{
+    width: 320px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.logosection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.logo-name{
+    font-size: 40px; 
+    font-family: "Cookie", serif;
+}
+.logosection-icon{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.msg-img{
+    position: relative;
+}
+.count{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%,-40%);
+    /* background-color: red;
+    color:white;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 3px; */
+}
+.story-img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 1px solid lightgray;
+    padding: 3px;
+    border-radius: 50%;
+}
+.story{
+    display: flex;
+    gap: 8px;
+}
+.mystory{
+    position: relative;
+
+}
+.plus-icon{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    color: white;
+    
+
+    
+}
+
+.hr{
+    border-top: 1px solid lightgray;
+}
+.tint{
+    background-color:rgba(0, 0, 0, 0.148);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    padding: 10px;
+}
